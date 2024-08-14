@@ -1,14 +1,43 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- <script type="module" src="/main.js"></script> -->
-    <script type="module" src="./Topics/currying_Function.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <!-- without event delegation -->
+
+  <h3>Without event delegation</h3>
+  <div>
+    <ul>
+      <li class="item">item 1</li>
+      <li class="item">item 2</li>
+      <li class="item">item 3</li>
+    </ul>
+  </div>
+  <h3>with Event delegation</h3>
+  <div>
+    <ul id="item-list">
+      <li class="item">item 1</li>
+      <li class="item">item 2</li>
+      <li class="item">item 3</li>
+    </ul>
+  </div>
+
+  <!-- end here -->
+
+  <!-- <script type="module" src="/main.js"></script> -->
+  <!-- <script type="module" src="./Topics/currying_Function.js"></script>
+    <script type="module" src="./Topics/map&filter&reduce&search.js"></script> -->
+  <!-- <script type="module" src="./Topics/==&===.js"></script> -->
+  <!-- <script type="module" src="./Topics/eventDeligation.js"></script> -->
+  <script type="module" src="./Topics/promise.js"></script>
+</body>
+
 </html>
